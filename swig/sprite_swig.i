@@ -10,6 +10,7 @@
 %{
 #include "sprite/correlator_cf.h"
 #include "sprite/peak_decimator_ff.h"
+#include "sprite/single_correlator_cf.h"
 %}
 
 
@@ -18,3 +19,5 @@ GR_SWIG_BLOCK_MAGIC2(sprite, correlator_cf);
 %include "sprite/peak_decimator_ff.h"
 GR_SWIG_BLOCK_MAGIC2(sprite, peak_decimator_ff);
 
+%include "sprite/single_correlator_cf.h"
+GR_SWIG_BLOCK_MAGIC2(sprite, single_correlator_cf);

@@ -19,5 +19,6 @@
 install(FILES
     sprite_correlator_cf.xml
     sprite_peak_decimator_ff.xml
-    sprite_soft_decoder_c.xml DESTINATION share/gnuradio/grc/blocks
+    sprite_soft_decoder_c.xml
+    sprite_single_correlator_cf.xml DESTINATION share/gnuradio/grc/blocks
 )

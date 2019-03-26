@@ -24,5 +24,5 @@ install(FILES
     api.h
     correlator_cf.h
     peak_decimator_ff.h
-    DESTINATION include/sprite
+    single_correlator_cf.h DESTINATION include/sprite
 )
